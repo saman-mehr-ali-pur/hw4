@@ -3,7 +3,7 @@ public class Account {
     private CreditCard creditCard;
 
     public Account(int accountId, CreditCard creditCard) {
-        AccountId = accountId;
+        this.AccountId = accountId;
         this.creditCard = creditCard;
     }
 
